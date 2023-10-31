@@ -9,9 +9,9 @@ btnIncrement.addEventListener("click", onBtnIncrementClick);
 
 function onBtnDecrementClick(event) {
   counterValue -= 1;
-  return (document.querySelector("#counter>#value").textContent = counterValue);
+  document.querySelector("#counter>#value").textContent = counterValue;
 }
 function onBtnIncrementClick(event) {
   counterValue += 1;
-  return (document.querySelector("#counter>#value").textContent = counterValue);
+  document.querySelector("#counter>#value").textContent = counterValue;
 }
